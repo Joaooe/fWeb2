@@ -1,0 +1,179 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c4c4c4;
+    color: black;
+    font-family: sans-serif;
+}
+
+header {
+    height: 20%;
+    position: relative;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.menu-opcoes {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes ul li a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.busca h2 {
+    margin: 10px;
+    background-color: rgb(161, 161, 161);
+    ;
+    width: 270px;
+}
+
+.busca form {
+    margin: 10px;
+}
+
+.menu-conteudo h2 {
+    margin: 10px;
+    background-color: rgb(161, 161, 161);
+    width: 270px;
+
+}
+
+.busca {
+    font-weight: bold;
+    /*coloca em negrito*/
+    text-transform: uppercase;
+    /*Deixa maiusculo*/
+    width: 280px;
+    margin-right: 10px;
+    float: left;
+}
+
+.menu-conteudo {
+
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-conteudo li {
+    background-color: rgba(193, 193, 193, 0.685);
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+.menu-conteudo a {
+    background-color: rgba(193, 193, 193, 0.685);
+}
+
+
+.busca input {
+    vertical-align: middle;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.busca,
+.menu-conteudo {
+    background-color: rgb(161, 161, 161);
+    width: 280px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    float: left;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(./img/facebook.png);
+    /*coloca imagem*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social a[href*="linkedin.com"] {
+    background-image: url(./img/linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+
+}
+
+.social a{
+    width: 40px;
+    height: 40px;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social a[href*="github.com"] {
+    background-image: url(./img/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+
+}
+main{
+    width: 100%;
+    height: 50%;
+}
+
+footer{
+    width: 100%;/* largura*/
+    height: 20%;
+    clear: both;
+    
+}
+
+.menu-conteudo li ol{
+    display: none;
+}
+.menu-conteudo li:hover ol{
+display: block;
+}
+
+.menu-conteudo ul ol li{
+    background-color: #dcdcdc;
+}

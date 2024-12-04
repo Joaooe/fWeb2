@@ -1,0 +1,18 @@
+#imagem {
+    width: 10%; 
+    border: #333333 solid 1px; 
+    margin: 2px; 
+}
+
+#imagem img {
+    width: 100%; 
+    height: auto; 
+    margin: 0; 
+}
+
+
+#diferenciais {
+    border: #333333 solid 1px;
+    padding: 20px 2px 3px 10px;
+    margin: 20px 0px 20px 20px; 
+}

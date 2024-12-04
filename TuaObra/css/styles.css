@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+}
+
+header .logo h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header .logo p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+}
+
+
+.quem-somos {
+    padding: 40px 20px;
+    background-color: #e9e4bb;
+    text-align: center;
+}
+
+.quem-somos h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.quem-somos p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+
+.inscricao {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e9e4bb;
+}
+
+.inscricao h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.inscricao p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn-inscrever {
+    padding: 15px 30px;
+}
+
+.logo{
+    width: 53%;
+    height: 41%;
+}

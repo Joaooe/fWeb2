@@ -1,0 +1,97 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+
+  color: white;
+  background-image: url(./space-galaxy-background.jpg);
+}
+
+header {
+
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-section {
+  text-align: center;
+  background: url('../img/vingadore\ full.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+}
+.nav-item{
+  background-color: red;
+}
+
+.hero-section h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.herois-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.herois-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.herois-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.heroi {
+  width: 30%;
+  background-color:#20130a;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.heroi img {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.heroi h3 {
+  margin-top: 10px;
+}
+
+.contato-section {
+
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}

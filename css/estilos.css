@@ -1,0 +1,15 @@
+.menu-opcoes ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.menu-opcoes ul li {
+    display: inline; 
+    margin-left: 20px; 
+    vertical-align: middle; 
+}
+
+.menu-opcoes ul li img { 
+    vertical-align: middle; 
+}

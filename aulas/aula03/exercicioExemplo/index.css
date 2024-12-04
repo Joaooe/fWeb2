@@ -1,0 +1,20 @@
+body{
+    background-color:orange;
+    color:3f2;
+    font-size: 25px;
+    text-align: center;
+    background-image:url(./img/Ringstrilogyposter.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#paragrafo2{
+    color: green;
+    text-align: center;
+}
+
+
+#paragrafo1{
+    color: yellow;
+   
+}
+
