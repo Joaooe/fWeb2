@@ -14,19 +14,18 @@ body {
 }
 
 header {
-    height: 20%;
+    height: 30%;
     position: relative;
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
     width: 90%;
 }
 
@@ -67,9 +66,7 @@ img {
 
 .busca {
     font-weight: bold;
-    /*coloca em negrito*/
     text-transform: uppercase;
-    /*Deixa maiusculo*/
     width: 280px;
     margin-right: 10px;
     float: left;
@@ -101,79 +98,72 @@ img {
     margin-top: 10px;
 }
 
-.busca,
-.menu-conteudo {
+.busca, .menu-conteudo {
     background-color: rgb(161, 161, 161);
     width: 280px;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase;  
     margin-right: 10px;
     float: left;
 }
 
-.social a[href*="facebook.com"] {
-    background-image: url(./img/facebook.png);
-    /*coloca imagem*/
+.menu-conteudo li ul{
+    display:none;
+}
+
+.menu-conteudo li:hover ul{
+    display:block;
+}
+.menu-conteudo ul ul li{
+    background-color: #dcdcdc;
+}
+
+footer{
+    height: 20%;
+    clear: both;
+}
+
+
+
+.social a[href*="instagram.com"]{
+    background-image: url(../img/icons8-instagram-48.png);
     background-size: contain;
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
 }
 
-.social a[href*="linkedin.com"] {
-    background-image: url(./img/linkedin.png);
+.social a[href*="github.com"]{
+    background-image: url(../img/devicon--github-wordmark.png);
     background-size: contain;
     background-repeat: no-repeat;
     text-indent: -9999px;
     display: block;
-
 }
 
-.social a{
-    width: 40px;
-    height: 40px;
+.social a[href*="linkedin.com"]{
+    background-image: url(../img/skill-icons--linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
 }
 
 .container-footer{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    /* align-items: center; */
+}
+
+.social a{
+    height: 40px;
+    width: 40px;
 }
 
 .social{
     display: flex;
-    justify-content: center;
-    
-}
-
-.social a[href*="github.com"] {
-    background-image: url(./img/github.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-indent: -9999px;
-    display: block;
-
-}
-main{
-    width: 100%;
-    height: 50%;
-}
-
-footer{
-    width: 100%;/* largura*/
-    height: 20%;
-    clear: both;
-    
-}
-
-.menu-conteudo li ol{
-    display: none;
-}
-.menu-conteudo li:hover ol{
-display: block;
-}
-
-.menu-conteudo ul ol li{
-    background-color: #dcdcdc;
+    /* justify-content: center; */
+    gap: 15px;
+    margin-bottom: 10px;
+    margin: 15px;
 }

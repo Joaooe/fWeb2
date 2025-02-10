@@ -8,4 +8,3 @@ document.querySelector("#imgbanner").src= banners[cont]
 
 }
 
-setInterval(trocaBanner,1000);

@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: green;
     width: 100%;
     height: 50%;
 }
@@ -11,8 +11,33 @@ body {
     }
 
 .item{
-    width:  150%;
-    height: 120%;
-    background-color:blue;
+    width:  100%;
+    height: 90%;
+    background-color:white
+    ;
     
 }
+
+/* Estilos do Carrossel */
+.carrossel {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+

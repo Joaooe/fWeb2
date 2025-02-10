@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sua Página</title>
+    <title>Página Principal</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
 </head>
+
 <body>
-    <header class="container">
+
+    <!-- Header -->
+    <header class="header container">
         <h1>
-            <img src="./img/joao.jpg" />
-            
+            <img src="./aulas/TrabalhoLucas/img/joao.jpg" alt="Imagem do João" class="img-header" />
+            <span>Bem-vindo à Página do João!</span>
         </h1>
         <nav class="menu-opcoes">
             <ul>
-                <li><a href="pagina Principal">Pagina Principal</a></li>
-                <li><a href="conteudo.html">Conteúdo</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="index.html" class="menu-item">Página Principal</a></li>
+                <li><a href="conteudo.html" class="menu-item">Conteúdo</a></li>
+                <li><a href="blog.html" class="menu-item">Blog</a></li>
+                <li><a href="contato.html" class="menu-item">Contato</a></li>
             </ul>
         </nav>
-
-        
-    </header class="container">
     </header>
+
+    <!-- Seção de Destaques -->
     <main>
-        <section id="destaques">
+        <section id="destaques" class="section-destaques">
             <div class="container destaque">
-                <img src="./aulas/aula12/img/icons8-dinossauro-100.png"  id="imgbanner">
-                
+                <img src="./aulas/aula12/img/icons8-dinossauro-100.png" alt="Ícone Dinossauro" id="imgbanner" />
+                <h2 class="section-title">Confira nossos destaques!</h2>
             </div>
+        </section>
 
-        </section class="painel aula01">
+        <!-- Trabalhos de Aula -->
+        <section class="trabalhos">
+            <h2>Trabalhos de Aula</h2>
+            <ol>
+                <li>
+                    <strong>Trabalho Calculadora</strong>
+                    <a href="./aulas/aula13/Calculadora.html" class="link-trabalho">Acesse o HTML aqui</a>
+                </li>
+            </ol>
+        </section>
 
-        <h2>painel aula01</h2>
-        <ol>
-            <li>Exemplo aula01<li><a href="./aulas/aula01/exemplo1.html">html</a></li>
-               <figure src="./html"></figure><a></a>
-            </li>
-                
-              
-            </li>
-        </ol>
+        <!-- Trabalho de Site -->
+        <section class="trabalhos">
+            <h2>Trabalho de Site</h2>
+            <ol>
+                <li>
+                    <strong>Trabalho de Site</strong>
+                    <a href="./aulas/TrabalhoLucas/index.html" class="link-trabalho">Acesse o site aqui</a>
+                </li>
+            </ol>
+        </section>
     </main>
 
-   
-</div>
-</section>
-</main>
-<footer>
-    <div class="container-footer">
-        <figure>
-            <img src="./img/joao.jpg">
-        </figure>
-        <ul class="social">
-            <li><a href="https://www.facebook.com/?locale=pt_BR">facebook</a></li>
-            <li><a href="https://www.linkedin.com/feed/">linkedin</a></li>
-            <li><a href="https://github.com/login">github</a></li>
-        </ul>
-    </div>
-</footer>
-
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-footer">
+            <ul class="social">
+                <li><a href="https://www.facebook.com/?locale=pt_BR" target="_blank" class="social-link">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/feed/" target="_blank" class="social-link">LinkedIn</a></li>
+                <li><a href="https://github.com/login" target="_blank" class="social-link">GitHub</a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
+
 </html>

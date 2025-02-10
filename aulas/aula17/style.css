@@ -1,0 +1,21 @@
+/* Estilos do Carrossel */
+.carrossel {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

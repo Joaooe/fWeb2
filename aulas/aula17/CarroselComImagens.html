@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Imagens</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo de estilo -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div class="carrossel">
+    <div class="slides">
+        <div class="slide"><img src="./Imagens/e-w-viuva-negra-29set2011.jpg" alt="Imagem 1"></div>
+        <div class="slide"><img src="./Imagens/hulk.jpg" alt="Imagem 2"></div>
+        <div class="slide"><img src="./Imagens/images (3).jpg" alt="Imagem 3"></div>
+        <div class="slide"><img src="./Imagens/pantera.jpg" alt="Imagem 4"></div>
+        <div class="slide"><img src="./Imagens/download (1).jpg" alt="Imagem 5"></div>
+        <div class="slide"><img src="./Imagens/download (2).jpg" alt="Imagem 6"></div>
+
+
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        var currentIndex = 0;
+        var totalSlides = $('.slide').length;
+
+        function showSlide(index) {
+            var offset = -index * 100;
+            $('.slides').css('transform', 'translateX(' + offset + '%)');
+        }
+
+        setInterval(function() {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            showSlide(currentIndex);
+        }, 3000); // Troca a cada 3 segundos
+    });
+</script>
+
+</body>
+</html>

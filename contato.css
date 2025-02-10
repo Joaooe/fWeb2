@@ -1,18 +1,109 @@
+/* Reset básico para garantir um layout consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte padrão e fundo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.container h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Seção do perfil */
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
 #imagem {
-    width: 10%; 
-    border: #333333 solid 1px; 
-    margin: 2px; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
-#imagem img {
-    width: 100%; 
-    height: auto; 
-    margin: 0; 
+.imagem-perfil {
+    width: 100%;
+    height: auto;
 }
 
+.informacoes {
+    max-width: 600px;
+}
 
-#diferenciais {
-    border: #333333 solid 1px;
-    padding: 20px 2px 3px 10px;
-    margin: 20px 0px 20px 20px; 
+/* Estilo de Títulos */
+h3 {
+    color: black;
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+
+/* Lista de habilidades */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Links sociais */
+.social-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-links li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.social-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
 }

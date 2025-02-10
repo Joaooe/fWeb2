@@ -1,9 +1,9 @@
-html, body {
+html, body{
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: blue;
+   background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,18 +18,19 @@ main {
     text-align: center;
 }
 
-#pokedexFigure {
+#pokedexFigure{
     width: 100%;
     height: 100%;
+
 }
 
-#pokemonFigure {
+#pokemonFigure{
     position: absolute;
     top: 40%;
     left: 35%;
 }
 
-#TituloTiposPokemon {
+#TituloTiposPokemon{
     position: absolute;
     top: 15%;
     left: 55%;
@@ -37,13 +38,13 @@ main {
     gap: 10px;
 }
 
-#TituloNomePokemon {
+#TituloNomePokemon{
     position: absolute;
-    top: 91%;
+    top: 61%;
     left: 41%;
 }
 
-form {
+form{
     display: flex;
     position: absolute;
     align-items: center;
@@ -54,7 +55,8 @@ form {
     width: 75%;
 }
 
-#inputNome {
+
+#inputNome{
     height: 45%;
     width: 90%;
     border: 2px solid black;
@@ -62,35 +64,21 @@ form {
     box-shadow: -3px 4px 0 gray;
 }
 
-#tituloInfo {
+#tituloInfo{
     font-size: 25px;
     position: absolute;
     top: 80%;
     left: 20%;
-    color: white;
-    width: 60%; /* Ajuste o tamanho do título */
-    text-align: center;
 }
 
-#divButton {
+#divButton{
     position: absolute;
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translateX(-50%); /* Ajuste de alinhamento */
+    left: 20%;
     display: flex;
-    gap: 20px; /* Ajuste o espaço entre os botões */
-    top: 90%; /* Ajuste a posição vertical dos botões */
+    gap: 130%;
 }
-
-.button {
+.button{
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: -3px 4px 0 gray;
-    padding: 10px 20px;
-    cursor: pointer;
-    background-color: white;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: lightgray;
 }
